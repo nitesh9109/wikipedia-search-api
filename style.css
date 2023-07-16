@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* padding: 5px 0px; */
+    max-width: 760px;
+}
+
+.profile input {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    outline: none;
+    border: 3px solid rgb(128, 128, 128, 0.2);
+}
+
+.profile h1 {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.profile img {
+    width: 300px;
+    margin: -50px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(81, 81, 198);
+}
+
+.heading {
+    font-weight: 500;
+    color: rgb(81, 81, 198);
+}
+
+.highlight {
+    font-weight: 500;
+    /* background-color: rgb(255, 234, 95, 0.4); */
+    background-color: #f4ff9a;
+}
+
+@media screen and (max-width: 325px) {
+    .profile h1 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    .profile h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 236px) {
+    .profile h1 {
+        font-size: 16px;
+    }
+}
